@@ -1,6 +1,12 @@
-
+function instagram() {
+ 
+  window.open("https://www.instagram.com/webathon_aum", "_blank");
+}
 (function() {
   "use strict";
+  let icon1 = document.querySelector(".icon1")
+
+// icon1.addEventListener("click",instagram())
 
   /**
    * Easy selector helper function
